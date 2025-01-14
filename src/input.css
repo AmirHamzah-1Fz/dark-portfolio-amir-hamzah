@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+body {
+    @apply bg-primary overflow-x-hidden text-text-100 font-inter selection:bg-zinc-800 selection:text-zinc-200;
+}

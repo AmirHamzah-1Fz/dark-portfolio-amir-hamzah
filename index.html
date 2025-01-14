@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amir Hamzah</title>
+    <link rel="stylesheet" href="./src/output.css" />
+
+    <!-- FONT INIZIALIZATION -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Questrial&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <style>
+    *::-webkit-scrollbar {
+      display: none;
+    }
+
+    img, svg, a, iframe {
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+
+  </style>
+
+  <body class="h-[200vh]">
+    <!-- NAVBAR START -->
+    <div class="fixed left-0 right-0 top-0 w-full border-b-[1.2px] border-b-border bg-primary">
+      <nav class="z-[100] flex w-full items-center justify-between px-[4%] py-4">
+        <!-- LOGO -->
+        <ul class="z-[100] flex space-x-4">
+          <li>
+            <h3 class="text-lg font-medium">AmirHamzah.</h3>
+          </li>
+        </ul>
+
+        <!-- RIGHT ITEMS -->
+
+        <ul class="z-[100] flex items-center justify-end gap-x-2">
+          <li>
+            <a
+              href="#"
+              class="font-semibold text-text-fade hover:text-text-solid focus:text-text-solid"
+              >EN</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="font-semibold text-text-fade hover:text-text-solid focus:text-text-solid"
+              >ID</a
+            >
+          </li>
+          <li
+            class="hover:bg-bgup ml-3 cursor-pointer rounded-md border border-border bg-transparent px-2 py-3 transition duration-200 ease-in-out"
+          >
+            <a href="#"
+              ><img
+                src="./assets/gfx/ui/menu-double.svg"
+                width="24"
+                height="24"
+                alt="hamburger"
+                class="invert"
+            /></a>
+          </li>
+        </ul>
+        <div
+          class="absolute -bottom-28 z-[90] h-[260px] w-full origin-top bg-gradient-to-b from-primary from-40% via-primary to-primary/0 blur-lg"
+        ></div>
+      </nav>
+    </div>
+    <!-- NAVBAR END -->
+
+    <section id="home">
+      <div class="flex w-full flex-col content-center items-center justify-center pt-36 px-[5%] sm:px-[2%]">
+        <div class="mb-32 w-2/3 max-sm:w-full max-sm:text-center">
+          <h2
+            class="text-solid max-w-[60%] cursor-pointer text-7xl max-md:text-6xl font-extrabold max-md:max-w-full"
+          >
+            Hi, Im Amir.
+          </h2>
+          <h3 class="mt-2 max-w-[70%] text-3xl font-bold text-text-fade/70 max-md:max-w-[100%]">
+            I am a
+            <span class="font-extrabold text-text-fade/80">Fullstack Developer</span> &
+            <span class="font-extrabold text-text-fade/80">UI/UX Designer</span>.
+          </h3>
+          <p class="mt-3 max-w-[75%] text-base text-text-fade/90 max-md:max-w-[100%]">
+            Currently I'm a high school student based on Indonesia who loves UI/UX Design and Web
+            Development.
+          </p>
+
+          <div class="mt-8 flex justify-start max-sm:justify-center items-center space-x-3">
+            <a
+              href="#"
+              class="hover:bg-bgup text-secondary flex w-fit items-center justify-center gap-3 rounded-lg border border-border bg-primary px-8 py-3 text-center font-semibold tracking-tighter transition-all duration-300 ease-in-out hover:-translate-y-[2px]"
+              >Contact Me</a
+            >
+
+            <a
+              href="#"
+              class="bg-secondary flex w-fit items-center justify-center gap-3 rounded-lg border border-transparent px-8 py-3 text-center font-semibold tracking-tighter text-primary transition-all duration-300 ease-in-out hover:-translate-y-[2px] hover:brightness-90"
+              >See Projects
+              <svg
+                class="fill-primary"
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="currentColor"
+              >
+                <path
+                  d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h240q17 0 28.5 11.5T480-800q0 17-11.5 28.5T440-760H200v560h560v-240q0-17 11.5-28.5T800-480q17 0 28.5 11.5T840-440v240q0 33-23.5 56.5T760-120H200Zm560-584L416-360q-11 11-28 11t-28-11q-11-11-11-28t11-28l344-344H600q-17 0-28.5-11.5T560-800q0-17 11.5-28.5T600-840h200q17 0 28.5 11.5T840-800v200q0 17-11.5 28.5T800-560q-17 0-28.5-11.5T760-600v-104Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="mb-3 flex w-2/3 gap-2 max-lg:w-3/4 max-sm:w-[90%]">
+          <img
+            class="flex-shrink-0"
+            src="assets\gfx\icons\apk\Spotify icon.png"
+            width="28px"
+            alt="Spotify"
+          />
+          <h3 class="text-lg font-bold text-text-solid">Flavour</h3>
+        </div>
+        <div
+          class="grid h-auto w-2/3 grid-cols-2 grid-rows-2 place-items-start gap-4 max-lg:w-3/4 max-sm:w-[90%] max-md:grid-cols-1 max-md:grid-rows-4"
+        >
+          <figure class="w-full hover:brightness-110">
+            <iframe
+              class="w-full outline outline-1 outline-transparent transition duration-500 ease-in-out hover:outline-border hover:brightness-[105%]"
+              style="border-radius: 12px"
+              height="152px"
+              src="https://open.spotify.com/embed/track/3KkXRkHbMCARz0aVfEt68P?utm_source=generator&theme=0"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </figure>
+          <figure class="w-full hover:brightness-110">
+            <iframe
+              class="w-full outline outline-1 outline-transparent transition duration-500 ease-in-out hover:outline-border hover:brightness-[105%]"
+              style="border-radius: 12px"
+              height="152px"
+              src="https://open.spotify.com/embed/track/0gyvlHedS67IyxojVUdBfZ?utm_source=generator&theme=0"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </figure>
+          <figure class="w-full hover:brightness-110">
+            <iframe
+              class="w-full outline outline-1 outline-transparent transition duration-500 ease-in-out hover:outline-border hover:brightness-[105%]"
+              style="border-radius: 12px"
+              height="152px"
+              src="https://open.spotify.com/embed/track/2uZWffKoemZDI0gHcBEcDc?utm_source=generator&theme=0"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </figure>
+          <figure class="w-full hover:brightness-110">
+            <iframe
+              class="w-full outline outline-1 outline-transparent transition duration-500 ease-in-out hover:outline-border hover:brightness-[105%]"
+              style="border-radius: 12px"
+              height="152px"
+              src="https://open.spotify.com/embed/track/69KUKhBqyGvtO1jtJwZEcv?utm_source=generator&theme=0"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
